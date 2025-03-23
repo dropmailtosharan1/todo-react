@@ -5,7 +5,7 @@ import { CSS } from '@dnd-kit/utilities';
 import { Todo } from '../types';
 
 interface TodoItemProps {
-  todo: Todo;
+  todo: Todo; 
   onToggle: (id: string) => void;
   onDelete: (id: string) => void;
 }
